@@ -1,1 +1,35 @@
 
+“When your team evaluates whether an AI feature is working, what does that process actually 
+look like right now and what is missing from it?”
+
+The pattern across almost every reply: evals happen after the fact, 
+run by the PM alone, and never reach engineering or leadership in a format anyone can act on. The most common missing piece was a rubric
+that the whole team agrees on before the sprint starts , not after the feature ships and something breaks.
+
+
+The first breakdown: evaluating the wrong thing.
+
+Most teams measure model accuracy. That is a model metric.
+
+The PM’s job is to measure product outcomes , whether the user made a better decision faster because of the feature. Accuracy is an input.
+
+Decision quality is the output. Most evals stop at the input.
+
+
+The second breakdown: no baseline.
+
+A feature that improves response time by 40% sounds impressive until you learn the baseline was manual copy-paste into a spreadsheet.
+
+The 40% improvement is real , but the comparison that makes it meaningful was never defined.
+
+Without a baseline established before the sprint, your eval numbers are just numbers. They do not tell anyone what changed.
+
+
+The third breakdown: evals happen after the problem is visible.
+
+By the time most teams run a proper eval, the feature has been live for six weeks and the trust erosion signal from Module 05 is already in the data.
+
+A pre-launch eval with agreed criteria would have caught the failure mode in staging.
+
+The post-launch eval is more expensive to act on and almost always produces a reactive fix rather than a structural one.
+
